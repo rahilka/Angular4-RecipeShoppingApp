@@ -9,7 +9,8 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent implements OnInit {
   recipes: Recipe[] = [
-  	new Recipe('A test recipe', 'This is simply a test', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocWipmFzjd69TUMVfw9N7FGNIfzuY4IpdONwKlZlQf5Pw1jtQig')
+  	new Recipe('A test recipe', 'This is simply a test', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocWipmFzjd69TUMVfw9N7FGNIfzuY4IpdONwKlZlQf5Pw1jtQig'),
+  	new Recipe('A test recipe', 'This is simply a test', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTocWipmFzjd69TUMVfw9N7FGNIfzuY4IpdONwKlZlQf5Pw1jtQig'),
   ]; //an array of couples of Recipe objects
 
   constructor() { }
